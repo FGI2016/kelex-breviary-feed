@@ -16,8 +16,36 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Tue, 26 May 2026 16:27:32 +0000</lastBuildDate>
+<lastBuildDate>Wed, 27 May 2026 16:15:40 +0000</lastBuildDate>
 
+
+<item>
+<title>Thursday — Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-28_np.mp3" length="2387861" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-28_np.mp3</guid>
+<pubDate>Thu, 28 May 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Morning Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-28_mp.mp3" length="4572565" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-28_mp.mp3</guid>
+<pubDate>Thu, 28 May 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Evening Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-28_ep.mp3" length="4278322" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-28_ep.mp3</guid>
+<pubDate>Thu, 28 May 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Daytime Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-28_dp.mp3" length="2420463" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-28_dp.mp3</guid>
+<pubDate>Thu, 28 May 2026 16:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Wednesday — Night Prayer</title>
