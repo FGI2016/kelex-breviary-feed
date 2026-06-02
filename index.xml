@@ -16,8 +16,43 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Mon, 01 Jun 2026 16:05:53 +0000</lastBuildDate>
+<lastBuildDate>Tue, 02 Jun 2026 10:46:14 +0000</lastBuildDate>
 
+
+<item>
+<title>Wednesday — Office of Readings</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_oor.mp3" length="5576497" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_oor.mp3</guid>
+<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday — Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_np.mp3" length="2393923" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_np.mp3</guid>
+<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday — Morning Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_mp.mp3" length="4537427" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_mp.mp3</guid>
+<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday — Evening Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_ep.mp3" length="4743899" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_ep.mp3</guid>
+<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday — Daytime Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_dp.mp3" length="2681062" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_dp.mp3</guid>
+<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Tuesday — Office of Readings</title>
