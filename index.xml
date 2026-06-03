@@ -16,8 +16,43 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Tue, 02 Jun 2026 16:00:12 +0000</lastBuildDate>
+<lastBuildDate>Wed, 03 Jun 2026 03:15:41 +0000</lastBuildDate>
 
+
+<item>
+<title>Thursday — Office of Readings</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_oor.mp3" length="5673053" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_oor.mp3</guid>
+<pubDate>Thu, 04 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_np.mp3" length="2387861" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_np.mp3</guid>
+<pubDate>Thu, 04 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Morning Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_mp.mp3" length="4651111" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_mp.mp3</guid>
+<pubDate>Thu, 04 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Evening Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_ep.mp3" length="4742435" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_ep.mp3</guid>
+<pubDate>Thu, 04 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Daytime Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_dp.mp3" length="2613769" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_dp.mp3</guid>
+<pubDate>Thu, 04 Jun 2026 16:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Wednesday — Office of Readings</title>
