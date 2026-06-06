@@ -16,8 +16,15 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Fri, 05 Jun 2026 16:28:36 +0000</lastBuildDate>
+<lastBuildDate>Sat, 06 Jun 2026 16:01:59 +0000</lastBuildDate>
 
+
+<item>
+<title>Sunday — Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-07_np.mp3" length="2688790" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-07_np.mp3</guid>
+<pubDate>Sun, 07 Jun 2026 16:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Saturday — Office of Readings</title>
@@ -262,69 +269,6 @@
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_dp.mp3" length="2317643" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_dp.mp3</guid>
 <pubDate>Sun, 31 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Saturday — Office of Readings</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_oor.mp3" length="5622176" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_oor.mp3</guid>
-<pubDate>Sat, 30 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Saturday — Night Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_np.mp3" length="2434673" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_np.mp3</guid>
-<pubDate>Sat, 30 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Saturday — Morning Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_mp.mp3" length="4360421" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_mp.mp3</guid>
-<pubDate>Sat, 30 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Saturday — Evening Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_ep.mp3" length="4486226" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_ep.mp3</guid>
-<pubDate>Sat, 30 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Saturday — Daytime Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_dp.mp3" length="2845319" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-30_dp.mp3</guid>
-<pubDate>Sat, 30 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Friday — Night Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-29_np.mp3" length="2733094" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-29_np.mp3</guid>
-<pubDate>Fri, 29 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Friday — Morning Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-29_mp.mp3" length="5031243" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-29_mp.mp3</guid>
-<pubDate>Fri, 29 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Friday — Evening Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-29_ep.mp3" length="4119465" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-29_ep.mp3</guid>
-<pubDate>Fri, 29 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Friday — Daytime Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-29_dp.mp3" length="2572807" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-29_dp.mp3</guid>
-<pubDate>Fri, 29 May 2026 16:00:00 +0000</pubDate>
 </item>
 
 
