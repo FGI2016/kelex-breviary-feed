@@ -16,8 +16,36 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Sat, 06 Jun 2026 16:01:59 +0000</lastBuildDate>
+<lastBuildDate>Sun, 07 Jun 2026 16:01:44 +0000</lastBuildDate>
 
+
+<item>
+<title>Monday — Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-08_np.mp3" length="2458286" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-08_np.mp3</guid>
+<pubDate>Mon, 08 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Monday — Morning Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-08_mp.mp3" length="4273722" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-08_mp.mp3</guid>
+<pubDate>Mon, 08 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Monday — Evening Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-08_ep.mp3" length="4095881" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-08_ep.mp3</guid>
+<pubDate>Mon, 08 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Monday — Daytime Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-08_dp.mp3" length="2822538" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-08_dp.mp3</guid>
+<pubDate>Mon, 08 Jun 2026 16:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Sunday — Night Prayer</title>
@@ -234,41 +262,6 @@
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-01_dp.mp3" length="2530802" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-01_dp.mp3</guid>
 <pubDate>Mon, 01 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Sunday — Office of Readings</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_oor.mp3" length="7421578" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_oor.mp3</guid>
-<pubDate>Sun, 31 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Sunday — Night Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_np.mp3" length="2688790" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_np.mp3</guid>
-<pubDate>Sun, 31 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Sunday — Morning Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_mp.mp3" length="4945144" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_mp.mp3</guid>
-<pubDate>Sun, 31 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Sunday — Evening Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_ep.mp3" length="4093343" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_ep.mp3</guid>
-<pubDate>Sun, 31 May 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Sunday — Daytime Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_dp.mp3" length="2317643" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-05-31_dp.mp3</guid>
-<pubDate>Sun, 31 May 2026 16:00:00 +0000</pubDate>
 </item>
 
 
