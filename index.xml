@@ -16,8 +16,43 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Tue, 09 Jun 2026 16:02:34 +0000</lastBuildDate>
+<lastBuildDate>Wed, 10 Jun 2026 16:02:43 +0000</lastBuildDate>
 
+
+<item>
+<title>Thursday — Office of Readings</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_oor.mp3" length="6760374" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_oor.mp3</guid>
+<pubDate>Thu, 11 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_np.mp3" length="2387861" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_np.mp3</guid>
+<pubDate>Thu, 11 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Morning Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_mp.mp3" length="4790501" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_mp.mp3</guid>
+<pubDate>Thu, 11 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Evening Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_ep.mp3" length="4306965" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_ep.mp3</guid>
+<pubDate>Thu, 11 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Thursday — Daytime Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_dp.mp3" length="2980946" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-11_dp.mp3</guid>
+<pubDate>Thu, 11 Jun 2026 16:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Wednesday — Office of Readings</title>
@@ -234,76 +269,6 @@
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_dp.mp3" length="2613769" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-04_dp.mp3</guid>
 <pubDate>Thu, 04 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Wednesday — Office of Readings</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_oor.mp3" length="5576497" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_oor.mp3</guid>
-<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Wednesday — Night Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_np.mp3" length="2393923" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_np.mp3</guid>
-<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Wednesday — Morning Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_mp.mp3" length="4537427" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_mp.mp3</guid>
-<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Wednesday — Evening Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_ep.mp3" length="4743899" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_ep.mp3</guid>
-<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Wednesday — Daytime Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_dp.mp3" length="2681062" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-03_dp.mp3</guid>
-<pubDate>Wed, 03 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Tuesday — Office of Readings</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_oor.mp3" length="6136568" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_oor.mp3</guid>
-<pubDate>Tue, 02 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Tuesday — Night Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_np.mp3" length="2622127" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_np.mp3</guid>
-<pubDate>Tue, 02 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Tuesday — Morning Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_mp.mp3" length="4712580" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_mp.mp3</guid>
-<pubDate>Tue, 02 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Tuesday — Evening Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_ep.mp3" length="4193266" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_ep.mp3</guid>
-<pubDate>Tue, 02 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Tuesday — Daytime Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_dp.mp3" length="2714914" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-02_dp.mp3</guid>
-<pubDate>Tue, 02 Jun 2026 16:00:00 +0000</pubDate>
 </item>
 
 
