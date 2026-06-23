@@ -16,8 +16,43 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Mon, 22 Jun 2026 16:09:49 +0000</lastBuildDate>
+<lastBuildDate>Tue, 23 Jun 2026 02:05:47 +0000</lastBuildDate>
 
+
+<item>
+<title>Wednesday — Office of Readings</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_oor.mp3" length="5920456" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_oor.mp3</guid>
+<pubDate>Wed, 24 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday — Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_np.mp3" length="2393923" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_np.mp3</guid>
+<pubDate>Wed, 24 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday — Morning Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_mp.mp3" length="4537427" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_mp.mp3</guid>
+<pubDate>Wed, 24 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday — Evening Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_ep.mp3" length="4743899" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_ep.mp3</guid>
+<pubDate>Wed, 24 Jun 2026 16:00:00 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday — Daytime Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_dp.mp3" length="2681062" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-24_dp.mp3</guid>
+<pubDate>Wed, 24 Jun 2026 16:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Tuesday — Office of Readings</title>
@@ -297,41 +332,6 @@
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-16_dp.mp3" length="2558598" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-16_dp.mp3</guid>
 <pubDate>Tue, 16 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Monday — Office of Readings</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_oor.mp3" length="6253806" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_oor.mp3</guid>
-<pubDate>Mon, 15 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Monday — Night Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_np.mp3" length="2458286" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_np.mp3</guid>
-<pubDate>Mon, 15 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Monday — Morning Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_mp.mp3" length="4402424" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_mp.mp3</guid>
-<pubDate>Mon, 15 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Monday — Evening Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_ep.mp3" length="4277715" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_ep.mp3</guid>
-<pubDate>Mon, 15 Jun 2026 16:00:00 +0000</pubDate>
-</item>
-
-<item>
-<title>Monday — Daytime Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_dp.mp3" length="2809163" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/2026-06-15_dp.mp3</guid>
-<pubDate>Mon, 15 Jun 2026 16:00:00 +0000</pubDate>
 </item>
 
 
