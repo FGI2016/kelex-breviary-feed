@@ -16,7 +16,7 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Sun, 12 Jul 2026 23:10:06 +0000</lastBuildDate>
+<lastBuildDate>Sun, 12 Jul 2026 23:17:15 +0000</lastBuildDate>
 
 
 <item>
@@ -24,13 +24,6 @@
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_sunday_np.mp3" length="2688790" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_sunday_np.mp3</guid>
 <pubDate>Sun, 05 Jul 2026 02:44:12 +0000</pubDate>
-</item>
-
-<item>
-<title>Monday - Office of Readings</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday14_oor.mp3" length="6613460" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday14_oor.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 02:07:06 +0000</pubDate>
 </item>
 
 <item>
@@ -44,20 +37,6 @@
 <title>Monday - Morning Prayer</title>
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday3o_mp.mp3" length="4461983" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday3o_mp.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 02:07:06 +0000</pubDate>
-</item>
-
-<item>
-<title>Monday - Morning Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday2o_mp.mp3" length="4402424" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday2o_mp.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 02:07:06 +0000</pubDate>
-</item>
-
-<item>
-<title>Monday - Daytime Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday2o_dp.mp3" length="2809163" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday2o_dp.mp3</guid>
 <pubDate>Sun, 12 Jul 2026 02:07:06 +0000</pubDate>
 </item>
 
@@ -76,13 +55,6 @@
 </item>
 
 <item>
-<title>Monday - Evening Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday2o_ep.mp3" length="4277715" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday2o_ep.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 02:07:06 +0000</pubDate>
-</item>
-
-<item>
 <title>Monday - Night Prayer</title>
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday_np.mp3" length="2458286" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday_np.mp3</guid>
@@ -93,63 +65,35 @@
 <title>Tuesday - Office of Readings</title>
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday15_oor.mp3" length="7494907" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday15_oor.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 23:10:04 +0000</pubDate>
-</item>
-
-<item>
-<title>Tuesday - Office of Readings</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday14_oor.mp3" length="7516455" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday14_oor.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 23:10:04 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 23:17:13 +0000</pubDate>
 </item>
 
 <item>
 <title>Tuesday - Morning Prayer</title>
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday3o_mp.mp3" length="4551845" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday3o_mp.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 23:10:04 +0000</pubDate>
-</item>
-
-<item>
-<title>Tuesday - Morning Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday2o_mp.mp3" length="4564832" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday2o_mp.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 23:10:04 +0000</pubDate>
-</item>
-
-<item>
-<title>Tuesday - Daytime Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday2o_dp.mp3" length="2558598" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday2o_dp.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 23:10:04 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 23:17:13 +0000</pubDate>
 </item>
 
 <item>
 <title>Tuesday - Daytime Prayer</title>
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday3o_dp.mp3" length="2992021" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday3o_dp.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 23:10:04 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 23:17:13 +0000</pubDate>
 </item>
 
 <item>
 <title>Tuesday - Evening Prayer</title>
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday3o_ep.mp3" length="3782591" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday3o_ep.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 23:10:04 +0000</pubDate>
-</item>
-
-<item>
-<title>Tuesday - Evening Prayer</title>
-<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday2o_ep.mp3" length="4163382" type="audio/mpeg"/>
-<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday2o_ep.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 23:10:04 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 23:17:13 +0000</pubDate>
 </item>
 
 <item>
 <title>Tuesday - Night Prayer</title>
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday_np.mp3" length="2622127" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday_np.mp3</guid>
-<pubDate>Sun, 12 Jul 2026 23:10:04 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 23:17:13 +0000</pubDate>
 </item>
 
 <item>
