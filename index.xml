@@ -16,7 +16,7 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Sun, 23 Aug 2026 14:00:23 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 04:23:50 +0000</lastBuildDate>
 
 
 <item>
@@ -87,6 +87,41 @@
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday_np.mp3" length="950" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_monday_np.mp3</guid>
 <pubDate>Sun, 23 Aug 2026 14:00:06 +0000</pubDate>
+</item>
+
+<item>
+<title>Tuesday - Office of Readings</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday21_oor.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday21_oor.mp3</guid>
+<pubDate>Mon, 24 Aug 2026 04:23:35 +0000</pubDate>
+</item>
+
+<item>
+<title>Tuesday - Morning Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday1o_mp.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday1o_mp.mp3</guid>
+<pubDate>Mon, 24 Aug 2026 04:23:35 +0000</pubDate>
+</item>
+
+<item>
+<title>Tuesday - Daytime Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday1o_dp.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday1o_dp.mp3</guid>
+<pubDate>Mon, 24 Aug 2026 04:23:35 +0000</pubDate>
+</item>
+
+<item>
+<title>Tuesday - Evening Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday1o_ep.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday1o_ep.mp3</guid>
+<pubDate>Mon, 24 Aug 2026 04:23:35 +0000</pubDate>
+</item>
+
+<item>
+<title>Tuesday - Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday_np.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday_np.mp3</guid>
+<pubDate>Mon, 24 Aug 2026 04:23:35 +0000</pubDate>
 </item>
 
 <item>
