@@ -16,7 +16,7 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Mon, 24 Aug 2026 14:08:01 +0000</lastBuildDate>
+<lastBuildDate>Tue, 25 Aug 2026 04:00:26 +0000</lastBuildDate>
 
 
 <item>
@@ -122,6 +122,41 @@
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday_np.mp3" length="950" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_tuesday_np.mp3</guid>
 <pubDate>Mon, 24 Aug 2026 14:07:26 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday - Office of Readings</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday21_oor.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday21_oor.mp3</guid>
+<pubDate>Tue, 25 Aug 2026 04:00:02 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday - Morning Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday1o_mp.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday1o_mp.mp3</guid>
+<pubDate>Tue, 25 Aug 2026 04:00:02 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday - Daytime Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday1o_dp.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday1o_dp.mp3</guid>
+<pubDate>Tue, 25 Aug 2026 04:00:02 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday - Evening Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday1o_ep.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday1o_ep.mp3</guid>
+<pubDate>Tue, 25 Aug 2026 04:00:02 +0000</pubDate>
+</item>
+
+<item>
+<title>Wednesday - Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday_np.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_wednesday_np.mp3</guid>
+<pubDate>Tue, 25 Aug 2026 04:00:02 +0000</pubDate>
 </item>
 
 <item>
