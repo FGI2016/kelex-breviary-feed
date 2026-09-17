@@ -16,7 +16,7 @@
 <itunes:category text="Religion &amp; Spirituality"/>
 <itunes:image href="https://freelygiveninc.org/wp-content/uploads/breviary/artwork.jpg"/>
 
-<lastBuildDate>Wed, 16 Sep 2026 13:09:06 +0000</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 03:00:23 +0000</lastBuildDate>
 
 
 <item>
@@ -87,6 +87,41 @@
 <enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_thursday_np.mp3" length="950" type="audio/mpeg"/>
 <guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_thursday_np.mp3</guid>
 <pubDate>Wed, 16 Sep 2026 13:08:44 +0000</pubDate>
+</item>
+
+<item>
+<title>Friday - Office of Readings</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday24_oor.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday24_oor.mp3</guid>
+<pubDate>Thu, 17 Sep 2026 03:00:07 +0000</pubDate>
+</item>
+
+<item>
+<title>Friday - Morning Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday4o_mp.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday4o_mp.mp3</guid>
+<pubDate>Thu, 17 Sep 2026 03:00:07 +0000</pubDate>
+</item>
+
+<item>
+<title>Friday - Daytime Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday4o_dp.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday4o_dp.mp3</guid>
+<pubDate>Thu, 17 Sep 2026 03:00:07 +0000</pubDate>
+</item>
+
+<item>
+<title>Friday - Evening Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday4o_ep.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday4o_ep.mp3</guid>
+<pubDate>Thu, 17 Sep 2026 03:00:07 +0000</pubDate>
+</item>
+
+<item>
+<title>Friday - Night Prayer</title>
+<enclosure url="https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday_np.mp3" length="950" type="audio/mpeg"/>
+<guid>https://freelygiveninc.org/wp-content/uploads/breviary/archive/psp_friday_np.mp3</guid>
+<pubDate>Thu, 17 Sep 2026 03:00:07 +0000</pubDate>
 </item>
 
 <item>
