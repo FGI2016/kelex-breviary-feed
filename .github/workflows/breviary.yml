@@ -1,0 +1,112 @@
+name: Daily Breviary Feed
+
+on:
+  schedule:
+    # 23:07 Asia/Phnom_Penh (UTC+7) prepares the following day's feed.
+    - cron: "7 16 * * *"
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: "Optional date to build (YYYY-MM-DD); blank builds tomorrow"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+
+concurrency:
+  group: daily-breviary-feed
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out feed and pipeline
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pipeline dependency
+        run: python -m pip install --disable-pip-version-check requests pytz
+      - name: Run calendar and resolver regression checks
+        run: |
+          cd pipeline
+          python -m unittest -v test_pipeline_regressions.py test_recording_resolver.py test_office_resolver.py test_select_audio_v2.py
+      - name: Build and validate RSS from the public archive
+        env:
+          TARGET_DATE: ${{ inputs.target_date }}
+        run: |
+          if [[ -n "$TARGET_DATE" ]]; then
+            python pipeline/cloud_build.py --date "$TARGET_DATE"
+          else
+            python pipeline/cloud_build.py
+          fi
+      - name: Record expected feed checksum
+        run: echo "EXPECTED_FEED_SHA256=$(sha256sum index.xml | awk '{print $1}')" >> "$GITHUB_ENV"
+      - name: Publish GitHub Pages feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- index.xml pipeline .github/workflows/breviary.yml CLOUD_SETUP.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily Breviary feed update"
+            git push
+          fi
+      - name: Verify GitHub Pages RSS is live
+        run: |
+          for attempt in $(seq 1 12); do
+            if curl --fail --silent --show-error https://fgi2016.github.io/kelex-breviary-feed/index.xml -o /tmp/live-feed.xml; then
+              actual_sha="$(sha256sum /tmp/live-feed.xml | awk '{print $1}')"
+              if [[ "$actual_sha" == "$EXPECTED_FEED_SHA256" ]]; then
+                echo "GitHub Pages RSS checksum verified"
+                exit 0
+              fi
+            fi
+            sleep 20
+          done
+          echo "::error::GitHub Pages RSS did not match the generated feed"
+          exit 1
+      - name: Require Flywheel SSH key before Flywheel publication
+        env:
+          FLYWHEEL_SSH_PRIVATE_KEY: ${{ secrets.FLYWHEEL_SSH_PRIVATE_KEY }}
+        run: |
+          if [[ -z "$FLYWHEEL_SSH_PRIVATE_KEY" ]]; then
+            echo "::error::Add the FLYWHEEL_SSH_PRIVATE_KEY Actions secret before Flywheel publication. GitHub Pages has already been updated."
+            exit 1
+          fi
+      - name: Set up Flywheel SSH
+        env:
+          FLYWHEEL_SSH_PRIVATE_KEY: ${{ secrets.FLYWHEEL_SSH_PRIVATE_KEY }}
+        run: |
+          install -d -m 700 "$HOME/.ssh"
+          printf '%s\n' "$FLYWHEEL_SSH_PRIVATE_KEY" > "$HOME/.ssh/id_rsa"
+          chmod 600 "$HOME/.ssh/id_rsa"
+          timeout 15 ssh-keyscan -t ed25519 -H ssh.getflywheel.com > "$RUNNER_TEMP/flywheel_known_host"
+          fingerprint="$(ssh-keygen -lf "$RUNNER_TEMP/flywheel_known_host" -E sha256 | awk '{print $2}' | sort -u)"
+          if [[ "$fingerprint" != "SHA256:KvnEJjZ0H64KEePU9aDmy4P5pu3cfNv8QbMXUQTMt3Q" ]]; then
+            echo "::error::Flywheel SSH host fingerprint did not match the trusted local ED25519 key."
+            exit 1
+          fi
+          cat "$RUNNER_TEMP/flywheel_known_host" >> "$HOME/.ssh/known_hosts"
+      - name: Publish RSS to Flywheel
+        run: |
+          rsync -az --timeout=60 -e "ssh -i $HOME/.ssh/id_rsa -o IdentitiesOnly=yes -o BatchMode=yes" \
+            index.xml gkaiser+freely-given-inc@ssh.getflywheel.com:/www/wp-content/uploads/breviary/kelex_breviary.xml
+      - name: Verify Flywheel origin file checksum
+        run: |
+          remote_sha="$(ssh -i "$HOME/.ssh/id_rsa" -o IdentitiesOnly=yes -o BatchMode=yes \
+            gkaiser+freely-given-inc@ssh.getflywheel.com \
+            "sha256sum /www/wp-content/uploads/breviary/kelex_breviary.xml" | awk '{print $1}')"
+          if [[ "$remote_sha" != "$EXPECTED_FEED_SHA256" ]]; then
+            echo "::error::Flywheel origin file checksum did not match the generated feed"
+            exit 1
+          fi
+          echo "Flywheel origin file checksum verified"
