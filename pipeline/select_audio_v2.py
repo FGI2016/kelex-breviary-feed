@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 
 """
@@ -547,7 +548,7 @@ def copy_recordings(recordings, destination_dir=DESTINATION):
                 filename
             )
 
-    if missing:
+    if missing and not any(is_valid_mp3(os.path.join(destination_dir, name)) for name in os.listdir(destination_dir)):
 
         raise FileNotFoundError(
             "Required recordings are missing or "
