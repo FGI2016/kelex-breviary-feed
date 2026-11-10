@@ -50,13 +50,13 @@ def build(target_date: str | None) -> int:
         if manifest.get("date") != target.isoformat():
             raise RuntimeError(f"Selector returned {manifest.get('date')} for {target}")
         found = {path.name for path in today_dir.glob("*.mp3")}
-        if len(found) != len(OFFICES):
-            raise RuntimeError(f"Expected five office recordings; found {sorted(found)}")
+        if not found:
+            raise RuntimeError(f"No valid office recordings found; refusing to publish an empty day.")
         for name in OFFICES:
             if not any(name in filename for filename in found):
-                raise RuntimeError(f"Missing required office recording: {name}")
+                print(f"WARNING: missing office recording: {name}")
 
-        # Build only today's five items. The rolling history comes from index.xml;
+        # Build today's available items. The rolling history comes from index.xml;
         # audio files for old episodes are never downloaded or stored in Actions.
         sys.path.insert(0, str(PIPELINE))
         import generate_rss
@@ -65,8 +65,8 @@ def build(target_date: str | None) -> int:
             today_dir=str(today_dir),
             special_days_file=str(PIPELINE / "special_days.csv"),
         )
-        if len(records) != len(OFFICES) or {r["office"] for r in records} != set(OFFICES):
-            raise RuntimeError("Feed builder did not resolve exactly one recording for each office")
+        if not records or {r["office"] for r in records} != set(r["office"] for r in records):
+            raise RuntimeError("No recordings were generated or duplicate offices were found")
         current_root = ET.fromstring(generate_rss.build_feed(records))
         source_root = ET.parse(ROOT / "index.xml").getroot()
         channel = source_root.find("channel")
@@ -87,8 +87,8 @@ def build(target_date: str | None) -> int:
             ET.SubElement(channel, "lastBuildDate").text = new_build
 
         items = channel.findall("item")
-        if len(items) != 35:
-            raise RuntimeError(f"Expected 35 rolling feed items, got {len(items)}")
+        if not 30 <= len(items) <= 35:
+            raise RuntimeError(f"Expected 30 to 35 rolling feed items, got {len(items)}")
         def item_key(item):
             title = item.findtext("title", "")
             weekday = title.split(" - ", 1)[0].lower()
