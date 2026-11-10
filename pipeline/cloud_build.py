@@ -65,8 +65,8 @@ def build(target_date: str | None) -> int:
             today_dir=str(today_dir),
             special_days_file=str(PIPELINE / "special_days.csv"),
         )
-        if not records or {r["office"] for r in records} != set(r["office"] for r in records):
-            raise RuntimeError("No recordings were generated or duplicate offices were found")
+        if not records:
+            raise RuntimeError("Feed builder generated no recording entries")
         current_root = ET.fromstring(generate_rss.build_feed(records))
         source_root = ET.parse(ROOT / "index.xml").getroot()
         channel = source_root.find("channel")
