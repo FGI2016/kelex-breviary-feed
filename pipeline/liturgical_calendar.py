@@ -15,6 +15,7 @@ class LiturgicalDay:
     date: datetime
 
     season: str
+    evening_season: str
     celebration: str
     rank: str
 
@@ -77,6 +78,18 @@ def _season_for_date(target_date):
     if previous_advent <= current <= baptism:
         return "Christmas"
     return "Ordinary Time"
+
+
+def _evening_season_for_date(target_date):
+    """Return the seasonal context governing Evening Prayer on this date."""
+    current = target_date.date()
+    first_sunday_of_advent = _advent_start(target_date.year).date()
+    if (
+        current.weekday() == 5
+        and current + timedelta(days=1) == first_sunday_of_advent
+    ):
+        return "Advent"
+    return _season_for_date(target_date)
 
 
 def get_seasonal_special_day(target_date):
@@ -197,6 +210,7 @@ def get_liturgical_day(
     )
 
     season = _season_for_date(target_date)
+    evening_season = _evening_season_for_date(target_date)
     celebration = "Feria"
     rank = "weekday"
     code = None
@@ -290,6 +304,7 @@ def get_liturgical_day(
     return LiturgicalDay(
         date=target_date,
         season=season,
+        evening_season=evening_season,
         celebration=celebration,
         rank=rank,
         code=code,

@@ -204,6 +204,41 @@ class PipelineRegressionTests(unittest.TestCase):
         result = get_liturgical_day(holy_family, ordinary_week=34, psalter_week=2)
         self.assertEqual(result.code, "holyfamily")
 
+    def test_advent_first_vespers_switches_evening_only(self):
+        from zoneinfo import ZoneInfo
+
+        timezone = ZoneInfo("Asia/Phnom_Penh")
+        saturday = datetime(2026, 11, 28, tzinfo=timezone)
+        day = get_liturgical_day(
+            saturday,
+            ordinary_week=34,
+            psalter_week=2,
+        )
+
+        self.assertEqual(day.season, "Ordinary Time")
+        self.assertEqual(day.evening_season, "Advent")
+
+        recordings = RecordingResolver().resolve(day)
+        self.assertEqual(recordings["oor"][0]["filename"], "psp_saturday34_oor.mp3")
+        self.assertEqual(recordings["mp"][0]["filename"], "psp_saturday2o_mp.mp3")
+        self.assertEqual(recordings["dp"][0]["filename"], "psp_saturday2o_dp.mp3")
+        self.assertEqual(recordings["ep"]["filename"], "psp_saturday1a_ep.mp3")
+        self.assertEqual(
+            recordings["ep"]["relative_path"],
+            "Advent/Saturday/psp_saturday1a_ep.mp3",
+        )
+
+        first_sunday = datetime(2026, 11, 29, tzinfo=timezone)
+        sunday = get_liturgical_day(
+            first_sunday,
+            ordinary_week=34,
+            psalter_week=2,
+        )
+        self.assertEqual(
+            RecordingResolver().resolve(sunday)["ep"]["filename"],
+            "psp_sunday1a_ep2.mp3",
+        )
+
     def test_advent_sunday_ep2_is_a_valid_five_office_feed(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

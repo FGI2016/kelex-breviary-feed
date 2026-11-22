@@ -12,6 +12,8 @@ Proper recordings are resolved from the local indexed archive first. The
 remote archive is only a fallback when the local copy is unavailable.
 """
 
+from dataclasses import replace
+
 from archive import Archive
 from remote_special_resolver import RemoteSpecialResolver
 from urllib.parse import quote
@@ -352,6 +354,17 @@ class RecordingResolver:
         return self._ordinary_recording(day, stem)
 
     def resolve_ep(self, day):
+
+        evening_season = getattr(day, "evening_season", day.season)
+        if (
+            day.weekday == "saturday"
+            and evening_season != day.season
+            and evening_season in ("Advent", "Christmas")
+        ):
+            # First Vespers changes the season at Saturday evening, while the
+            # civil day's daytime offices retain their original season.
+            evening_day = replace(day, season=evening_season)
+            return self._seasonal_recording(evening_day, "ep")
 
         if day.evening_prayer == "proper":
 
