@@ -105,6 +105,20 @@ class RecordingResolver:
                 )
             return special
 
+        # Christ the King has separate First and Second Vespers recordings.
+        # Use Second Vespers for the Sunday feed's single Evening Prayer item.
+        if office == "ep" and day.weekday == "sunday":
+            second_vespers = self.archive.find_recording(
+                stem=f"psp_{day.code}_ep2"
+            )
+            if second_vespers:
+                result = dict(second_vespers)
+                result["remote_url"] = (
+                    f"{REMOTE_ARCHIVE_BASE}/"
+                    f"{quote(result['relative_path'], safe='/')}"
+                )
+                return result
+
         # Final fallback: ordinary archive lookup.
         recording = self.archive.find_prefix(
             f"psp_{day.code}_{office}"
